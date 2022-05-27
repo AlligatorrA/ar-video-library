@@ -1,0 +1,65 @@
+.banner_box{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.banner_image{
+   width: 100vw;
+    height: 88vh;
+    overflow:hidden;
+   background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-netflix-animation-index-1585754615.jpg?crop=1.00xw:0.668xh;0,0&resize=980:*');
+   object-fit: cover;
+   -webkit-box-shadow: inset 3px 22px 300px 200px rgba(0,0,0,0.76);
+   -moz-box-shadow: inset 3px 22px 300px 400px rgba(0,0,0,0.76);
+   box-shadow:inset 3px 220px 336px 292px rgba(0,0,0,0.76);
+}
+.banner_text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: cornflowerblue;
+  
+}
+.banner_bottom{
+   height: 450px;
+  
+}
+.width400{
+    width: 40%;
+}
+.LoginEmailInp{
+ width: 450px;
+  height: 60px;
+  padding: 5px 20px;
+  font-size: 1em;
+}
+.LoginEmailbtn{
+  height: 60px;
+  padding: 5px 20px;
+}
+
+.f4em {
+    font-size: 4em;
+    letter-spacing: 1px;
+}
+.f2em {
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+@media only screen and (max-width: 800px) {
+    .f4em {
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+.f2em {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+.LoginEmailInp{
+ width: 220px;
+}
+.min_hide{
+    display: none;
+}
+}

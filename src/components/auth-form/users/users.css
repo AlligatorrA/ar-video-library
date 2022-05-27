@@ -1,0 +1,40 @@
+.users {
+    height: 89.4vh;
+}
+
+.boot_back {
+    width: 55rem;
+    height: 20rem;
+    position: relative;
+    border-radius: 7px;
+}
+
+.boot_back_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.circle_avtar {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    border-radius: 50%;
+    left: 40%;
+    bottom: -25%;
+    display: flex;
+    justify-content: center;
+}
+
+.circle_avtar_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user_desc {
+    z-index: 1;
+    margin-top: 6rem;
+}

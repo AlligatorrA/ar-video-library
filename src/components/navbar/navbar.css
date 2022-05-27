@@ -1,0 +1,65 @@
+.top_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo {
+    background-color: black;
+}
+
+.image_box {
+    min-width: 45px;
+    min-height: 33px;
+    position: relative;
+}
+
+.nav_footer {
+    height: 5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_footer_show {
+    display: none;
+    width: 100%;
+}
+
+@media screen and (max-width:400px) {
+    .nav_footer_show {
+        display: flex;
+        width: 100%;
+    }
+
+    .doc_aside {
+        display: none;
+    }
+
+    .asideAnd_main {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-height:700px) {
+    .nav_footer_show {
+        display: flex;
+        width: 100%;
+    }
+
+    .doc_aside {
+        display: none;
+    }
+
+    .asideAnd_main {
+        height: 80vh;
+    }
+}
+
+.greyColor {
+    background-color: rgb(26, 24, 24);
+}

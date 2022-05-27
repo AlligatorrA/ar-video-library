@@ -1,0 +1,56 @@
+.asideAnd_main {
+    display: flex;
+    height: 82.8vh;
+}
+
+.doc_header {
+    height: 5rem;
+    border-bottom: 1px solid var(--secondry-color);
+}
+
+.doc_aside {
+    width: 15rem;
+    height: 100%;
+}
+
+.doc_main {
+    overflow-y: auto;
+    width: 100%;
+}
+
+.main_footer {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    border-top: 2px solid var(--primary-textColor);
+    bottom: 0;
+}
+
+.asideAlink {
+    padding: 0.1em 0.2em;
+    border-radius: 8px;
+}
+
+.asideAlink:hover {
+    background-color: rgb(55, 53, 53);
+}
+
+.asideAlink:focus {
+    background-color: rgb(55, 53, 53);
+}
+
+@media screen and (max-width: 950px) {
+    .doc_aside span {
+        display: none;
+    }
+
+    .doc_aside {
+        width: 4rem;
+        height: 100%;
+    }
+
+    .acc-coln {
+        flex-direction: column;
+    }
+}

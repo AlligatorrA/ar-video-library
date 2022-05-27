@@ -1,0 +1,130 @@
+.all_centre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dis_flex {
+    display: flex;
+}
+
+.coln_flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.just_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.align_flex {
+    display: flex;
+    align-items: center;
+}
+
+.just_btw_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ************************************************************** */
+
+
+.padding_halfrem {
+    padding: 0.5rem;
+}
+
+.padding01rem {
+    padding: 1rem;
+}
+
+.margin10px {
+    margin: 10px;
+}
+
+.margin20pxhzt {
+    margin: 5px 20px;
+}
+
+.margin_left20px {
+    margin-left: 20px;
+}
+
+.margin_5px {
+    margin: 5px;
+}
+
+.margin_auto {
+    margin: auto;
+}
+
+/* ************************************* */
+.cur {
+    cursor: pointer;
+}
+
+.outline {
+    border: transparent;
+}
+
+.border50 {
+    border-radius: 50%;
+}
+
+/* ***************************************** */
+.spacerhalf {
+    width: 100%;
+    padding: 0.5em 0;
+}
+
+.spacer01 {
+    width: 100%;
+    padding: 2em 0;
+}
+
+.spacer02 {
+    width: 100%;
+    padding: 4em 0;
+}
+
+/* ******************************************* */
+
+.font1en {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.pTectColor {
+    color: blue;
+}
+
+.overflow {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.overflow_x {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/* **********************hidden********************** */
+
+.aria-hidden {
+    display: none;
+}
+
+.f24px {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.isTrue {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.2rem 0.5rem;
+    background-color: blue;
+    color: white;
+}

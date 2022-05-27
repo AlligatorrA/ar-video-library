@@ -1,0 +1,28 @@
+.sole_play {
+    height: 100%;
+}
+
+.player {
+    height: 630px;
+}
+
+.video_player {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:500px) {
+    .player {
+        height: 400px;
+    }
+
+    .desc {
+        flex-direction: column;
+    }
+}
+
+.desc {
+    padding: 1rem;
+    max-width: 60rem;
+    margin: 1rem auto;
+}

@@ -1,0 +1,25 @@
+.input_tag{
+    background-color: white;
+    min-width: 14rem;
+    height: 2rem;
+    outline: 0;
+    border: none;
+}
+.input_label{
+    background-color: white;
+    min-width: 16rem;
+    height: 2.4rem;
+      padding: 7px 8px;
+      border-radius: 5px;
+      margin: 10px ;
+}
+.btn {
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.bdr{
+    border: 1px solid blue;
+    border-radius: 5px;
+   box-shadow: inset 2px 1px 224px 23px;
+}

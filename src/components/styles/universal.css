@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+:root {
+    --primary-color: #232529;
+    --secondry-color: #485775;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+a{
+ text-decoration: none;
+ color: blue;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* width of the entire scrollbar */
+    height: 1px;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+    /* background: var(--primary-color); */
+    border-radius: 5px;
+}
